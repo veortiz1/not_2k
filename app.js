@@ -40,7 +40,7 @@ app.get("/", (req,res) =>{
         "Utah Jazz",
         "Washington Wizards"
       ];
-      res.render("index");
+      res.render("index",{teams:nbaTeams});
       
 })
 
